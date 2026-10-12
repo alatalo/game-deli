@@ -1,6 +1,6 @@
-const CACHE_PREFIX = 'tiny-deliveries-';
-const CACHE_NAME = "tiny-deliveries-295a8005af2d07bd";
-const PRECACHE = ["assets/CanvasRenderer-4RO2uYtA.js","assets/Filter-CoqTkW4x.js","assets/RenderTargetSystem-DCENm8FX.js","assets/WebGLRenderer-CyTV20yR.js","assets/WebGPURenderer-D1lTMge9.js","assets/browserAll-BQothkJV.js","assets/getTexelRangeRects-DssIbzJh.js","assets/index-B9hPptoY.css","assets/index-BJtUsjUl.js","assets/webworkerAll-B-1xGJnc.js","game_wasm.js","game_wasm_bg.wasm","index.html"];
+const CACHE_PREFIX = 'tiny-deliveries:' + self.registration.scope + ':';
+const CACHE_NAME = CACHE_PREFIX + "e7e1a38644e6818d";
+const PRECACHE = [".nojekyll","assets/CanvasRenderer-Di6xe4aE.js","assets/Filter-CZQsXNhX.js","assets/RenderTargetSystem-CkLpENdG.js","assets/WebGLRenderer-CQcIc7Bz.js","assets/WebGPURenderer-DGInRQd3.js","assets/browserAll-abyXYA7S.js","assets/getTexelRangeRects-7Ej4bLBI.js","assets/index-B9hPptoY.css","assets/index-DZQHi9Hj.js","assets/webworkerAll-lATY9ioZ.js","game_wasm.js","game_wasm_bg.wasm","index.html"];
 const inScope = (url) => url.origin === self.location.origin && url.href.startsWith(self.registration.scope);
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(PRECACHE.map((path) => new URL(path, self.registration.scope).href))).then(() => self.skipWaiting()));
