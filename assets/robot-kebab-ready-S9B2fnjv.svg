@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="320" viewBox="0 -70 260 320">
+<defs>
+<linearGradient id="sdareadykebab" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e2e7eb"/></linearGradient>
+<linearGradient id="frareadykebab" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#eef1f4"/><stop offset="1" stop-color="#d3dae0"/></linearGradient>
+<linearGradient id="lidareadykebab" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eaeef1"/></linearGradient>
+<linearGradient id="skareadykebab" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3c434b"/><stop offset="1" stop-color="#22272c"/></linearGradient>
+<linearGradient id="vzareadykebab" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2a3138"/><stop offset="1" stop-color="#11151a"/></linearGradient>
+</defs>
+<ellipse cx="138" cy="236" rx="118" ry="10" fill="#1d2b3a" opacity=".2"/>
+<!-- whip + flag, behind the lid; flag trails backwards -->
+<path d="M70 66 L62 -64" stroke="#1b2026" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M62 -63 Q36 -60 8 -50 Q34 -40 61 -29 Z" fill="#f26a3d"/>
+<path d="M60 -55 Q40 -52 24 -48" stroke="#ffa27e" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<circle cx="100" cy="196" r="29" fill="#15191d"/><circle cx="100" cy="196" r="20.9" fill="none" stroke="#8c8f3a" stroke-width="2.9"/><circle cx="154" cy="196" r="29" fill="#15191d"/><circle cx="154" cy="196" r="20.9" fill="none" stroke="#8c8f3a" stroke-width="2.9"/><circle cx="208" cy="196" r="29" fill="#15191d"/><circle cx="208" cy="196" r="20.9" fill="none" stroke="#8c8f3a" stroke-width="2.9"/>
+<!-- skirt -->
+<path d="M180 150 l44 -16 v30 q0 12 -10 16 l-34 12 z" fill="#30363d"/>
+<path d="M38 150 h142 v36 q0 16 -16 16 h-110 q-16 0 -16 -16 z" fill="url(#skareadykebab)"/>
+<!-- tub -->
+<path d="M30 92 h158 l-6 60 h-144 q-6 0 -6 -6 z" fill="url(#sdareadykebab)"/>
+<path d="M188 92 l44 -16 l-6 58 q-1 6 -7 8 l-37 12 z" fill="url(#frareadykebab)"/>
+<path d="M48 106 Q48 100 54 100 H146 Q154 100 156 106 L166 136 Q168 144 160 144 H54 Q48 144 48 138 Z" fill="#c98f2a"/><path d="M48 106 Q48 100 54 100 H80 L94 144 H54 Q48 144 48 138 Z" fill="#ffffff" opacity=".14"/><circle cx="106" cy="122" r="21" fill="#ffffff"/><svg x="85" y="101" width="42" height="42" viewBox="0 0 40 40"><path d="M20 1.5 V38" stroke="#8d959c" stroke-width="2.6" stroke-linecap="round"/><ellipse cx="20" cy="35.5" rx="9" ry="2.6" fill="#b9c0c6"/><path d="M9 6 Q20 3 31 6 L27 32 Q20 34 13 32 Z" fill="#a8582c"/><path d="M9 6 Q20 3 31 6 L30.3 10 Q20 7 9.7 10 Z" fill="#c9773f"/><path d="M10.3 14 Q20 11 29.7 14 M11 19 Q20 16.5 29 19 M11.8 24 Q20 21.5 28.2 24 M12.6 28.6 Q20 26.5 27.4 28.6" stroke="#7f3d1c" stroke-width="1.6" fill="none" stroke-linecap="round"/><path d="M23 7 L28.8 7.6 L25.5 31.5 L21.5 32 Z" fill="#d9925a" opacity=".75"/><path d="M24.5 12 l2.6 .3 M24 17.5 l2.5 .3 M23.5 23 l2.3 .3" stroke="#f0b47a" stroke-width="1.2" stroke-linecap="round"/><path d="M9 6 L13 32" stroke="#7f3d1c" stroke-width="1.4" opacity=".5"/><circle cx="20" cy="3.2" r="2.2" fill="#6f777e"/></svg>
+<!-- visor wrapping front corner -->
+<path d="M156 98 h32 l44 -16 v22 l-44 16 h-32 q-7 0 -7 -7 v-8 q0 -7 7 -7 z" fill="url(#vzareadykebab)"/>
+<path d="M190 102 l36 -13" stroke="#4d5964" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+<path d="M197.8 106.5 L205.4 103.7" stroke="#8fe8ff" stroke-width="4.5" stroke-linecap="round"/><path d="M213.8 100.7 L221.4 97.9" stroke="#8fe8ff" stroke-width="4.5" stroke-linecap="round"/>
+<!-- seam -->
+<path d="M28 88 h162 l44 -16 v5 l-44 16 h-162 z" fill="#14181c"/>
+<!-- domed lid -->
+<path d="M60 58 H160 L204 42 H104 Z" fill="#fbfcfd"/>
+<path d="M60 58 Q44 58 36 66 L80 50 Q88 42 104 42 Z" fill="#f6f8fa"/>
+<path d="M26 88 V82 Q26 58 60 58 H158 Q192 58 192 82 V88 Z" fill="url(#lidareadykebab)"/>
+<path d="M192 88 V82 Q192 58 158 58 L202 42 Q236 42 236 66 V72 Z" fill="#e2e7eb"/>
+<path d="M58 62 H156" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+<path d="M34 76 Q36 64 52 62" stroke="#ffffff" stroke-width="3" fill="none" stroke-linecap="round" opacity=".9"/>
+<!-- antenna boss -->
+<rect x="63" y="54" width="14" height="10" rx="4" fill="#1b2026"/>
+<!-- lights -->
+<path d="M218 134 l9 -3 v5 l-9 3 z" fill="#fff1b8"/>
+<rect x="31" y="128" width="5" height="11" rx="2.5" fill="#e5533d"/>
+<circle cx="66" cy="206" r="30" fill="#1f2328"/><circle cx="66" cy="206" r="27.9" fill="none" stroke="#2c3137" stroke-width="3.0"/><circle cx="66" cy="206" r="22.2" fill="none" stroke="#e3de3a" stroke-width="3.0"/><circle cx="66" cy="206" r="19.8" fill="#a9b0b7"/><ellipse cx="60.6" cy="199.4" rx="9.0" ry="5.4" fill="#d3d8dd" opacity=".7"/><circle cx="66" cy="206" r="6.0" fill="#6d757d"/><circle cx="122" cy="206" r="30" fill="#1f2328"/><circle cx="122" cy="206" r="27.9" fill="none" stroke="#2c3137" stroke-width="3.0"/><circle cx="122" cy="206" r="22.2" fill="none" stroke="#e3de3a" stroke-width="3.0"/><circle cx="122" cy="206" r="19.8" fill="#a9b0b7"/><ellipse cx="116.6" cy="199.4" rx="9.0" ry="5.4" fill="#d3d8dd" opacity=".7"/><circle cx="122" cy="206" r="6.0" fill="#6d757d"/><circle cx="178" cy="206" r="30" fill="#1f2328"/><circle cx="178" cy="206" r="27.9" fill="none" stroke="#2c3137" stroke-width="3.0"/><circle cx="178" cy="206" r="22.2" fill="none" stroke="#e3de3a" stroke-width="3.0"/><circle cx="178" cy="206" r="19.8" fill="#a9b0b7"/><ellipse cx="172.6" cy="199.4" rx="9.0" ry="5.4" fill="#d3d8dd" opacity=".7"/><circle cx="178" cy="206" r="6.0" fill="#6d757d"/>
+</svg>
