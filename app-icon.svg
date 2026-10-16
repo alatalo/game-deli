@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#9fd3f0"/><stop offset="1" stop-color="#fff0dc"/></linearGradient></defs>
+  <rect width="512" height="512" fill="url(#sky)"/><circle cx="398" cy="110" r="49" fill="#fff0dc"/>
+  <path d="M0 385h512v127H0z" fill="#e3cfae"/><path d="M0 395h512v15H0z" fill="#faf2e3"/>
+  <path d="M85 385v-77h56v77m29 0v-119h79v119m30 0v-92h54v92m28 0v-140h64v140" fill="#fff0dc" opacity=".82"/>
+  <g fill="#ffd9bd"><path d="M100 325h14v18h-14zm31 0h14v18h-14zm53-42h18v22h-18zm38 0h18v22h-18zm-38 40h18v22h-18zm38 0h18v22h-18zm75 22h15v18h-15zm31 0h15v18h-15zm45-76h19v24h-19zm36 0h19v24h-19z"/></g>
+  <image href="share-robot.svg" x="72" y="0" width="368" height="454" preserveAspectRatio="xMidYMid meet"/>
+  <path d="M48 456h102m36 0h118m38 0h122" stroke="#e6d6bb" stroke-width="8"/>
+</svg>
